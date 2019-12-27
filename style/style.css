@@ -168,6 +168,10 @@
     position: relative;
 }
 
+.statistics-numbers-box:nth-of-type(2) {
+    height: 180px;
+}
+
 .statistics-icon {
     height: 63px;
     width: 63px;
@@ -219,6 +223,7 @@
 .statistics-text {
     font-family: Raleway, sans-serif;
     font-size: 16px;
+    line-height: 19px;
     display: block;
     color: var(--secondary-color-gl);
 }
