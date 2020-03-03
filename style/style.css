@@ -716,7 +716,6 @@
     font-weight: 700;
     text-decoration: none;
     color: white;
-    padding: 226px 57px;
 }
 
 /*SEVENTH SECTION*/
@@ -751,4 +750,452 @@
 .footer-sm li {
     display: inline-block;
     padding: 0 10px;
+}
+
+@media (max-width: 1370px) {
+    .page-nav-container {
+        margin: 0 40px;
+    }
+
+    .footer-info {
+        margin-left: 40px;
+    }
+
+    .footer-sm {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .page-nav-list li {
+        margin-left: 50px;
+    }
+
+    .banner .container {
+        height: 600px;
+    }
+
+    .benefits-box, .benefits-box:nth-of-type(3) {
+        width: 1000px;
+    }
+
+    .benefits-box:nth-of-type(3) .box-with-only-text {
+        margin-right: 30px;
+    }
+
+    .benefits-box:nth-of-type(3) .benefits-box-text {
+        width: 454px;
+    }
+
+    .pricing-box {
+        width: 330px;
+    }
+
+    .pricing-box-button {
+        left: 90px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .banner .container {
+        height: 500px;
+    }
+
+    .pricing-box {
+        width: 300px;
+    }
+
+    .pricing-box-button {
+        left: 80px;
+    }
+}
+
+@media (max-width: 990px) {
+    .benefits, .benefits .container {
+        height: 1300px;
+    }
+
+    .benefits-box:nth-of-type(3) .box-with-only-text {
+        margin-right: 15px;
+    }
+
+    .pricing {
+        padding-top: 70px;
+    }
+
+    .pricing .container {
+        height: 1150px;
+        text-align: center;
+    }
+
+    .pricing-title {
+        font-family: Raleway, sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+
+    .pricing-boxes {
+        display: inline-block;
+    }
+
+    .pricing-box {
+        width: 383px;
+        height: 320px;
+        border: 1px solid black;
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .pricing-box-title {
+        padding-top: 0;
+    }
+
+    .pricing-box-list {
+        height: 300px;
+    }
+
+    .pricing-box-button {
+        left: 115px;
+    }
+
+    .form .container {
+        width: 840px;
+    }
+
+    .right-form, .right-form-input, .right-form-input input {
+        width: 400px;
+    }
+}
+
+@media (max-width: 900px) {
+    .banner .container {
+        height: 460px;
+        margin-top: calc(208px - 90px);
+    }
+
+    .benefits {
+        height: 1800px;
+    }
+
+    .benefits .container {
+        height: 1800px;
+        align-items: center;
+    }
+
+    .benefits-box {
+        width: 500px;
+        height: 560px;
+        display: inline-block;
+    }
+
+    .benefits-box img {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 60px;
+    }
+
+    .benefits-box:nth-of-type(1) .benefits-box-text {
+        width: 400px;
+        height: 182px;
+        position: absolute;
+        top: 350px;
+        left: 50px;
+    }
+
+    .benefits-box:nth-of-type(1)::after {
+        top: 50px;
+        right: 70px;
+    }
+
+    .benefits-box .benefits-box-text h2 {
+        margin-bottom: 40px;
+    }
+
+    .benefits-box:nth-of-type(2) {
+        margin: 37px 0;
+    }
+
+    .benefits-box:nth-of-type(2)::after {
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        top: 25px;
+        left: 120px;
+    }
+
+    .benefits-box:nth-of-type(2) img {
+        display: block;
+        position: absolute;
+        height: 300px;
+        top: 0;
+        right: 60px;
+        padding-top: 30px;
+    }
+
+    .benefits-box:nth-of-type(2) .benefits-box-text {
+        width: 400px;
+        height: 182px;
+        position: absolute;
+        top: 320px;
+        left: 50px;
+    }
+
+    .benefits-box:nth-of-type(1) .benefits-box-text::after,
+    .benefits-box:nth-of-type(2) .benefits-box-text::after,
+    .benefits-box:nth-of-type(3) .benefits-box-text::after {
+        display: none;
+    }
+
+    .benefits-box:nth-of-type(3) {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        width: 500px;
+        height: 500px;
+    }
+
+    .benefits-box:nth-of-type(3) .box-with-only-text {
+        width: 400px;
+        height: 300px;
+        background: white;
+        margin-right: 0;
+    }
+
+    .benefits-box:nth-of-type(3) .benefits-box-text {
+        width: 500px;
+        height: 200px;
+    }
+
+    .box-with-img {
+        width: 500px;
+        height: 250px;
+        padding-top: 40px;
+    }
+
+    .form .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form .container, .right-form {
+        width: 400px;
+    }
+
+    .left-form {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-nav {
+        margin-bottom: 0;
+    }
+
+    .banner .container {
+        height: 400px;
+        margin-top: calc(208px - 100px);
+    }
+
+    .statistics {
+        height: 875px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .statistics .container {
+        width: 400px;
+    }
+
+    .statistics-title {
+        padding: 70px 0 50px 0;
+    }
+
+    .statistics-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .statistics-numbers-box {
+        margin-bottom: 50px;
+    }
+
+    .statistics-icon {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .statistics-numbers-box:first-of-type::before {
+        top: 15px;
+    }
+
+    .statistics-numbers-box:nth-of-type(2)::before {
+        top: 23px;
+    }
+
+    .statistics-numbers-box:last-of-type::before {
+        top: 20px;
+    }
+
+    .banner-btn {
+        height: 67px;
+        width: 280px;
+        padding: 22px 75px;
+    }
+}
+
+@media (max-width: 450px) {
+    .banner .container {
+        height: 400px;
+        margin-top: calc(208px - 130px);
+    }
+
+    .banner-text {
+        align-items: center;
+        margin: 0 90px 30px 90px;
+        line-height: 1.5rem;
+    }
+
+    .statistics .container {
+        width: 300px;
+    }
+
+    .statistics-title {
+        padding: 60px 0 40px 0;
+    }
+
+    .benefits, .benefits .container {
+        height: 1400px;
+    }
+
+    .benefits-box {
+        width: 315px;
+        height: 400px;
+    }
+
+    .benefits-box img {
+        height: 110px;
+        right: 60px;
+    }
+
+    .benefits-box:nth-of-type(1) img {
+        margin-top: 50px;
+    }
+
+    .benefits-box:nth-of-type(1) .benefits-box-text {
+        width: 270px;
+        height: 85px;
+        top: 180px;
+        left: 30px;
+    }
+
+    .benefits-box:nth-of-type(1)::after {
+        top: 30px;
+        right: 55px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .benefits-box:nth-of-type(2) {
+        margin: 25px 0;
+    }
+
+    .benefits-box:nth-of-type(2)::after {
+        width: 110px;
+        height: 110px;
+        left: 100px;
+    }
+
+    .benefits-box:nth-of-type(2) img {
+        height: 150px;
+    }
+
+    .benefits-box:nth-of-type(2) .benefits-box-text {
+        width: 270px;
+        height: 85px;
+        top: 160px;
+        left: 30px;
+    }
+
+    .benefits-box:nth-of-type(2) .benefits-box-text h2 {
+        margin-bottom: 25px;
+    }
+
+    .benefits-box:nth-of-type(3) {
+        width: 315px;
+        height: 500px;
+    }
+
+    .benefits-box:nth-of-type(3) .box-with-only-text {
+        align-items: flex-start;
+        width: 270px;
+        height: 350px;
+    }
+
+    .benefits-box:nth-of-type(3) .box-with-only-text h2 {
+        margin: 20px 0 30px 0;
+    }
+
+    .box-with-img {
+        width: 315px;
+        height: 180px;
+    }
+
+    .pricing {
+        padding-top: 50px;
+    }
+
+    .pricing .container {
+        height: 850px;
+    }
+
+    .pricing-box {
+        width: 293px;
+        height: 251px;
+    }
+
+    .pricing-title {
+        margin-bottom: 20px;
+    }
+
+    .pricing-box-list {
+        height: 270px;
+    }
+
+    .pricing-box-button {
+        left: 73px;
+    }
+
+    .form .container, .left-form, .right-form, .right-form-input, .right-form-input input {
+        width: 280px;
+    }
+
+    .left-form {
+        margin-bottom: 50px;
+    }
+
+    .left-form-title {
+        font-size: 40px;
+    }
+
+    .form-contacts {
+        flex-direction: column;
+    }
+
+    .form-number::before {
+        padding: 0 10px 0 0;
+    }
+
+    .footer-info {
+        margin-left: 20px;
+    }
+
+    .footer-sm {
+        margin-right: 20px;
+    }
 }
